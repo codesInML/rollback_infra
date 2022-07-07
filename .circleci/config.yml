@@ -65,4 +65,6 @@ workflows:
       # - create_inventory_file:
       #     requires:
       #       - create_infrastructure
-      - smoke_test
+      - smoke_test:
+          requires:
+            - create_infrastructure
