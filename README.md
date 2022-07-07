@@ -1,0 +1,1 @@
+# Rollback infrastructure creation job (Delete created infrastructure on job failure)
